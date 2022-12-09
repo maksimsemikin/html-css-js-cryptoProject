@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Urbanist:wght@500;600;700;800&display=swap');
+
+/* font-family: 'Urbanist', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/Background_site.jpg);
+    background-size: 100%;
+}
+

@@ -1,0 +1,84 @@
+a {
+    text-decoration: none;
+}
+
+hr,
+.nav__menuandsearch,
+.imgwithtext__bigimg,
+.imgwithtext__sectionwithimgandtxt,
+.imgwithtext__globalshape,
+.imgwithtext__sliderbtn {
+    display: none;
+}
+
+.nav__logoandmenuicon {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0 10px;    
+}
+
+.logoandmenuicon__imgmainlogo > a{
+    display: flex;
+    align-items: center;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 800;
+    color: rgb(243, 243, 243)
+}
+
+.logoandmenuicon__burgerheader {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgwithtext__sectionwithbtntxt {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 110px 0 0 15px;
+    gap: 60px;
+}
+
+.textandbtn__btnheader > a {
+color: white;
+}
+
+.imgwithtext__sectionwithbtntxt > p {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow:  0 0 10px white;
+}
+
+.imgwithtext__textandbtn > h1 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    text-shadow:  0 0 10px white;
+}
+
+.textandbtn__btnheader {
+    margin-top: 80px;
+    margin-left: -20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textandbtn__btnheader :first-child {
+    color: rgb(17, 10, 43);
+    background-color: white;
+    border: solid 2px white;
+    border-radius: 30px;
+    padding: 12px 30px 12px 30px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+
+}
+
+.textandbtn__btnheader :last-child {
+    border: solid 2px white;
+    border-radius: 30px;
+    padding: 12px 30px 12px 30px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+}
