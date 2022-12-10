@@ -1,0 +1,56 @@
+body > hr{
+    display: block;
+}
+
+.main__secondpage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.secondpage__graphimg {
+    align-self:flex-end;
+    margin-right: 10px;
+}
+
+.secondpage__graphimg > img{
+    box-shadow: -2px 2px 30px 5px rgb(108, 11, 128);
+}
+
+.main__secondpage > section {
+    color: white;
+    font-family: 'Urbanist',sans-serif;
+    padding: 10px;
+}
+
+.main__secondpage > section > article {
+    display: flex; 
+    flex-direction: column;
+}
+
+.main__secondpage > section > article :first-child {
+    text-transform: uppercase;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    text-shadow:  0 0 10px white;
+}
+
+.main__secondpage > section > article > h2 {
+    font-weight: 500;
+    text-shadow:  0 0 10px white;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.main__secondpage > section > article :last-child {
+    margin-top: 10px;
+}
+
+.secondpage__displayimg > img {
+    box-shadow: -2px 2px 30px 5px rgb(94, 10, 110);
+
+}
+
