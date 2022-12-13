@@ -65,6 +65,28 @@ body > hr{
     font-family: 'Urbanist', sans-serif;
     font-weight: 500;
     text-shadow:  0 0 10px white;
+    margin-top: 20px;
+}
+
+
+
+.textandphoneimg__versatileandtransparent {
+    display: flex;
+    flex-direction: column;
+    font-family:'Urbanist', sans-serif;
+    font-size: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+
+.textandphoneimg__versatileandtransparent :first-child {
+    width: 70%;
+    align-self: flex-start;
+}
+
+.textandphoneimg__versatileandtransparent :last-child {
+    width: 70%;
+    align-self: flex-end;
 }
 
 .textandphoneimg_centerphoneimg {
@@ -72,11 +94,10 @@ body > hr{
     justify-content: center;
 }
 
-.textandphoneimg__versatileandtransparent {
-    display: flex;
-}
-
 .textandphoneimg_centerphoneimg > img {
     width: 180px;
     background: transparent;
+    border: solid white 2px;
+    border-radius: 40px;
+    box-shadow: 0 0 15px 5px rgb(108, 11, 128);
 }
