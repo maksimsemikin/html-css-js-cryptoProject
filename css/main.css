@@ -15,13 +15,12 @@ body > hr{
     margin-right: 10px;
 }
 
-.secondpage__graphimg > img{
+.secondpage__graphimg img{
     box-shadow: -2px 2px 30px 5px rgb(108, 11, 128);
 }
 
 .main__secondpage > section {
     color: white;
-    font-family: 'Urbanist',sans-serif;
     padding: 10px;
 }
 
@@ -49,7 +48,7 @@ body > hr{
     margin-top: 10px;
 }
 
-.secondpage__displayimg > img {
+.secondpage__displayimg img {
     box-shadow: -2px 2px 30px 5px rgb(94, 10, 110);
 
 }
@@ -62,31 +61,28 @@ body > hr{
 
 .secondmainpage > h2 {
     align-self: center;
-    font-family: 'Urbanist', sans-serif;
     font-weight: 500;
     text-shadow:  0 0 10px white;
     margin-top: 20px;
 }
 
-
-
 .textandphoneimg__versatileandtransparent {
     display: flex;
-    flex-direction: column;
-    font-family:'Urbanist', sans-serif;
     font-size: 10px;
-    margin-bottom: 10px;
-    justify-content: space-around;
+    margin-bottom: 5%;
+    text-align: center;
 }
 
-.textandphoneimg__versatileandtransparent :first-child {
-    width: 70%;
-    align-self: flex-start;
+.secondmainpage h4 {
+    text-shadow:  0 0 10px white;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 5%;
 }
 
-.textandphoneimg__versatileandtransparent :last-child {
-    width: 70%;
-    align-self: flex-end;
+.secondmainpage p {
+    font-weight: 500;
+    font-size: 10px;
 }
 
 .textandphoneimg_centerphoneimg {
@@ -95,9 +91,17 @@ body > hr{
 }
 
 .textandphoneimg_centerphoneimg > img {
-    width: 180px;
+    width: 40%;
     background: transparent;
     border: solid white 2px;
     border-radius: 40px;
     box-shadow: 0 0 15px 5px rgb(108, 11, 128);
+}
+
+.textandphoneimg_easyuseandrealtime {
+    display: flex;
+    font-size: 10px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-align: center;
 }
